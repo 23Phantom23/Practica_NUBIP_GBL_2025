@@ -212,7 +212,7 @@ class TaskCard extends StatelessWidget {
         return Colors.blue;
       case 'Готово':
         return Colors.green;
-      case 'Ускладення':
+      case 'Ускладнення':
         return Colors.red;
       default:
         return Colors.grey;

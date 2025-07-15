@@ -22,7 +22,7 @@ class BoardProvider with ChangeNotifier {
   UserRole? get currentUserRole => _currentUserRole;
 
   // Змінюємо порядок статусів
-  List<String> get taskStatuses => ['Заплановано', 'В процесі', 'Ускладення', 'Готово'];
+  List<String> get taskStatuses => ['Заплановано', 'В процесі', 'Ускладнення', 'Готово'];
 
   bool isOwner(int userId) {
     return _currentBoard?.ownerId == userId;
